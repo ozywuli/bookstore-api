@@ -1,5 +1,5 @@
 # Change these
-server '138.68.249.50', port: 3000, roles: [:web, :app, :db], primary: true
+server '138.68.249.50', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:ozywuli/bookstore-api.git'
 set :application,     'bookstore-api'
