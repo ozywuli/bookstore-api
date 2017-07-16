@@ -7,6 +7,7 @@ require 'capistrano/bundler'
 require 'capistrano/rvm'
 require 'capistrano/puma'
 
+# https://stackoverflow.com/questions/43014993/dont-know-how-to-build-task-start-when-run-cap-production-deploy-for-capist
 install_plugin Capistrano::Puma
 
 # Loads custom tasks from `lib/capistrano/tasks' if you have any defined.
