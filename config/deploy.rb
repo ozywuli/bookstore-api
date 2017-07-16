@@ -75,7 +75,8 @@ namespace :deploy do
   end
 
   before :starting,     :check_revision
-  after  :finishing,    :compile_assets
+  # COMMENTING OUT BELOW FIXES `Task :compile_assets not found`
+  # after  :finishing,    :compile_assets
   after  :finishing,    :cleanup
   after  :finishing,    :restart
 end
